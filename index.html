@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles */
+        .img-fluid {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+        }
+    
+        @media (max-width: 768px) {
+            .img-fluid {
+                width: 100%; /* Set the width to 100% for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">RAHUL BAIRWA</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="bg-primary text-white text-center position-relative">
+        <div class="row">
+            <div class="col-md-6 order-md-1">
+                <div class="position-relative">
+                    <img src="https://res.cloudinary.com/dovvewcys/image/upload/v1719842663/portfolio/image_gofgzm.png" alt="Sticker Image" class="img-fluid top-0 bottom-0">
+                </div>
+            </div>
+            <div class="col-md-6 order-md-2 d-flex align-items-center">
+                <div>
+                    <h1>Welcome to My Portfolio</h1>
+                    <p class="lead">I am a highly motivated, dedicated, 
+                    and detail-oriented web developer 
+                    with experience in developing and 
+                    maintaining web applications using 
+                    JavaScript, Node.js, and React. 
+                    Passionate about learning new 
+                    technologies. </p>
+            </div>
+                </div>
+            
+        </div>
+        
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <h2 class="text-center">About Me</h2>
+                    <div>
+                        <p>Skilled in HTML, CSS, JavaScript, and Bootstrap for front-end and back-end development. 
+                            Gained experience working at Yhills company and completed several projects under their supervision. 
+                            Created a streaming app similar to YouTube using Bootstrap, HTML, JavaScript, CSS and ReactJs. 
+                            Eager to join this internship to gain more practical knowledge and apply my best efforts to create high-quality projects.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            HOBBIES
+                        </h4>
+                        <p>
+                            Reading Books ,
+                            Meditation ,
+                            Coding  ,
+                            Learning new technology, 
+                            Playing Chess.
+                        </p>
+                        <h4>
+                           Language 
+                        </h4>
+                        <p>
+                            English ,
+                            Hindi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <!-- Project Card 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://res.cloudinary.com/dovvewcys/image/upload/v1719842652/portfolio/img1_vu4bxv.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">StreamApp (full-stack project)</h5>
+                            <p class="card-text"> <b>Details: </b>In this web application, the 
+                                application, the user can upload media if he is signed in. A user is 
+                                able to see media and download it as well. 
+                                <br>
+                                <br>
+                                <b>USECASE</b>: React.js , Node.js , Bootstrap, HTML, CSS, JavaScript</p>
+                            <div style="width:100%">
+                            <a href="https://github.com/RahulBairwa01/StreamApp.git"  class="btn btn-primary" style="width:49%">Frontend Code</a>
+                            <a href="https://github.com/RahulBairwa01/StreamApp_Backend.git"  class="btn btn-primary" style="width:49%">Backend Code</a>
+                            </div>
+                            <div style="margin-top:2px;width:100%" >
+                            <a href="https://stream-app-backend-hdejmilgu-rahulbairwa01s-projects.vercel.app/"  class="btn btn-primary" style="width:100%">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Project Card 2 -->
+                 <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://res.cloudinary.com/dovvewcys/image/upload/v1719842653/portfolio/img2_ngeec4.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ecommerce(full-stack project)</h5>
+                            <p class="card-text"><b>Details: </b>In this web application, the 
+                                application, the user can veiw products and oder.Admin can 
+                                manage user and product details.
+                                <br>
+                                <br>
+                                <b>USECASE</b>: React.js , Node.js , Bootstrap, HTML, CSS, JavaScript</p>
+                            <div style="width:100%">
+                            <a href="https://github.com/RahulBairwa01/Ecommerce-Frontend.git"  class="btn btn-primary"style="width:49%">Frontend Code</a>
+                            <a href="https://github.com/RahulBairwa01/Ecommerce-Backend.git"  class="btn btn-primary"style="width:49%">Backend Code</a>    
+                             </div>
+                             <div style="margin-top:2px;width:100%" >
+                            <a href="https://ecommerce-backend-one-opal.vercel.app/" class="btn btn-primary" style="width:100%">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://res.cloudinary.com/dovvewcys/image/upload/v1719842656/portfolio/img3_ebfznu.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">NewsApp (frontend project using API)</h5>
+                            <p class="card-text"> <b>Details: </b>In this web application, the 
+                                application, the user can see real-time news according to his 
+                                choice. 
+                                <br>
+                                <br>
+                                <b>USECASE</b>: React.js, HTML, CSS, JavaScript, API </p>
+                            <div style="width:100%">
+                            <a href="https://github.com/RahulBairwa01/newsapp.git" class="btn btn-primary" style="width:100%">Frontend Code</a>
+                            </div>
+                            <div style="margin-top:2px;width:100%" >
+                                <a href="https://github.com/RahulBairwa01/newsapp.git" class="btn btn-primary" style="width:100%">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://res.cloudinary.com/dovvewcys/image/upload/v1719842655/portfolio/img4_faz4ph.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Education Website (simple frontend project)</h5>
+                            <p class="card-text"><b>Details: </b>Education Website (simple frontend project): In this app, there is a 
+                                home page, admission page, course page, fees page, and 
+                                contact page.
+                                <br>
+                                <br>
+                                <b>USECASE</b>: HTML, CSS , JavaScript</p>
+                            <div style="width:100%">
+                            <a href="https://github.com/RahulBairwa01/education-site.git" class="btn btn-primary" style="width:100%">Frontend Code</a>
+                            </div>
+                            <div style="margin-top:2px;width:100%" >
+                                <a href=" https://rahulbairwa01.github.io/education-site/" class="btn btn-primary" style="width:100%">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 5 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://res.cloudinary.com/dovvewcys/image/upload/v1719842666/portfolio/img5_izryf8.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator Website (simple frontend project)</h5>
+                            <p class="card-text"><b>Details: </b>Calculator Website (simple frontend project): In this app, there is a 
+                                Calculator. calculator is a handy tool used for performing mathematical calculations.
+                                <br>
+                                <br>
+                                <b>USECASE</b>: HTML, CSS , JavaScript</p>
+                            <div style="width:100%">
+                            <a href="https://github.com/RahulBairwa01/Calculator.git" class="btn btn-primary" style="width:100%">Frontend Code</a>
+                            </div>
+                            <div style="margin-top:2px;width:100%" >
+                                <a href="https://rahulbairwa01.github.io/Calculator/" class="btn btn-primary" style="width:100%">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="needs-validation" novalidate>
+
+                        <input type="hidden" name="access_key" value="">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" required>
+                            <div class="invalid-feedback">
+                                Please provide a name.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid email.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter your message.
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit Form</button>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>Contact</p>
+            <div class="d-flex flex-row">
+                <div class="col-md-6">
+                    <h6 class="mb-0">Information</h6>
+                    <div class="text-align-left pl-3 text-start">
+                        <p class="mb-0 small">Email: rahulbairwa7884@gmail.com</p>
+                        <p class="mb-0 small">Phone No: 7230907884</p>
+                        <p class="mb-0 small">Address: f-322 Lal Kothi Scheme, Jaipur, Rajasthan, India</p>
+                    </div>
+                </div>
+                <div class="socail-links mt-3">
+                        <h6 class="mb-0">Social Links</h6>
+                        <a href="https://www.linkedin.com/in/rahul-bairwa-45347b251/" class="twiiter"> Linkedin<i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="twiiter"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="mb-0">Rahul Bairwa</h6>
+                    <p class="mb-0 small">highly motivated, dedicated, 
+                        and detail-oriented web developer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap JS and FontAwesome -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <style>
+        /* Custom styles */
+        .img-fluid {
+            max-width: 1300px;
+            /* Adjust the maximum width of the image */
+        }
+    </style>
+    <script>
+
+
+    </script>
+</body>
+
+
+</html>
